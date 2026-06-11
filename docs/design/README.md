@@ -1,0 +1,26 @@
+# MJPEG Video Streaming Server with Hardware UI Design Package
+
+## Purpose
+
+V4L2 camera project that captures snapshots, records raw video, streams MJPEG over a local HTTP server, and maps physical buttons into UI actions.
+
+This package defines the project as an implementation-ready embedded system. It covers system architecture, requirements, interface boundaries, runtime design, validation evidence, and phased delivery.
+
+## Project Profile
+
+| Field | Value |
+| --- | --- |
+| Repository | `rheslar1/mjpeg-video-streaming-hardware-ui` |
+| Primary stack | C++17, C++ Design Patterns, SOLID, V4L2, MJPEG, HTTP server, CSI camera, GPIO buttons, Hardware UI |
+| Review proof point | High-bandwidth peripheral handling, media pipeline design, local network streaming, and physical UI integration. |
+
+## Artifacts
+
+- [System Design](system-design.md)
+- [Requirements](requirements.md)
+- [Interface Control](interface-control.md)
+- [Runtime Design](runtime-design.md)
+- [Validation Plan](validation-plan.md)
+- [Implementation Roadmap](implementation-roadmap.md)
+- [Draw.io UML](diagrams/system-design.drawio)
+- [PNG UML](diagrams/system-design.png)
